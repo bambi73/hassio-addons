@@ -108,6 +108,8 @@ if [ -f /data/hmip_address.conf ]; then
     cp -f /data/hmip_address.conf /etc/config/
 fi
 
+firmware_update_hmip "${DEVICE_ID}"
+
 # Setup settings
 (
     echo "Adapter.1.Type=HMIP_CCU2"
