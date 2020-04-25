@@ -111,7 +111,7 @@ fi
 # Setup settings
 (
     echo "Adapter.1.Type=HMIP_CCU2"
-    echo "Adapter.1.Port=/dev/ttyUSB0"
+    echo "Adapter.1.Port=/dev/ttyS0"
 ) >> /etc/config/crRFD.conf
 
 # for hmip_device in $(bashio::config 'hmip|keys'); do
