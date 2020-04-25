@@ -108,7 +108,7 @@ if [ -f /data/hmip_address.conf ]; then
     cp -f /data/hmip_address.conf /etc/config/
 fi
 
-firmware_update_hmip "${DEVICE_ID}"
+# firmware_update_hmip "${DEVICE_ID}"
 
 # Setup settings
 (
