@@ -25,7 +25,7 @@ touch /data/userprofiles/userAckInstallWizard_Admin
 . /usr/lib/hm-interface.sh
 
 # Setup Interfaces
-init_interface_list false false true
+init_interface_list false true false
 # init_interface_list "$(bashio::config 'rf_enable')" \
     # "$(bashio::config 'hmip_enable')" \
     # "$(bashio::config 'wired_enable')"
